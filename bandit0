@@ -1,2 +1,15 @@
-##Goal of tis level
+# Goal of level
+
+The goal of this level is to connect to the game using SSH. SSH stands for secure shell 
+which is an encrypted network protocol which allows two devices to communicate and share data securely
+We must login to the game using the web address  "bandit.labs.overthewire.org" on port 2220. We must remember the username bandit0 as this is used in the initial command.
+The password is also bandit0 for ease of access.
+REMEMBER - this is the only information given and for a reason.
+
+
+
+
+
+
+
 
