@@ -5,7 +5,11 @@ I'm using this repo to help others learn alongside me and utilise cybersecurity 
 
 ## Structure
 Each level has its own file with:
+
 -The goal of the level
+
 -My thinking throughout the level
+
 -Commands i used
--What i learned
+
+-What i learned (if anything new learnt)
