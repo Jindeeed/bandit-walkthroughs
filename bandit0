@@ -8,6 +8,15 @@ REMEMBER - this is the only information given and for a reason.
 
 
 
+# My thinking
+
+Firstly it becomes obvious as this is only level 0 we must simply use a command to connect. As they specified its an SSH connection we must use an SSH command.
+A password will prop and we must enter it --> we were given this in the original challenge.
+I realise that we will need the '-p' command to conect to the port given to us, port 2220.
+
+# commands i used
+
+I used the SSH command and the '-p' command to specify the port number i would like to establish the connection on.
 
 
 
