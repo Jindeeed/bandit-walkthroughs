@@ -8,7 +8,8 @@
 
 
 
-Login to bandit1 using ssh at port 2220 (this would use a special command we explored in our last level  -- bandit1@bandit1.org.overthewire -p 2220
+Login to bandit1 using ssh at port 2220 (this would use a special command we explored in our last level  -- ssh bandit1@bandit.labs.overthewire.org -p 2220
+
 
 now the password should be found in the previous levels file -- Please store this in a text file created on your linux machine
 
