@@ -1,1 +1,26 @@
+# Goal of Level
+  We want to enter the file - and find the password
+
+# Potential setbacks
+
+  Since in linux "-" is a special symbol. We cannot simpply cat our way into it but we must use the directory command ./ to specify it is the file we want to enter
+  - is the standard option character. We used it in the last level to specify the port "-p"
+
+
+
+Login to bandit1 using ssh at port 2220 (this would use a special command we explored in our last level  -- bandit1@bandit1.org.overthewire -p 2220
+
+now the password should be found in the previous levels file -- Please store this in a text file created on your linux machine
+
+Once inside the ssh connection lets list all the files to make sure we have a "-" file. Use the ls command
+
+Now we can cat and specify the directory --   cat ./-
+
+we should now have the password
+
+
+# Result
+
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
 
