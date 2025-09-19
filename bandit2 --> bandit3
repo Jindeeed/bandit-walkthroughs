@@ -1,1 +1,20 @@
 ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+
+# Potention setbacks 
+
+  The file name has spaces in between each word, therefore if we cat to it normally we are basically asking the system to look for four files -
+    These files are: "spaces", "in", "this" and "filename" 
+
+Therefore to tell the system that it is part of one file we must use quotation marks
+
+HOWEVER!!!!!
+
+We also cannot just cat to the file, because we have dashes "--" at the bginning and end#
+
+
+Therefore we are going to use the same command "./"
+
+
+# Solution
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
