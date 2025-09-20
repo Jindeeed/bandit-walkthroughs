@@ -1,0 +1,41 @@
+## Goal
+Enter file and grab the password
+
+## Comands needed
+
+ls -- list all files inside (just to check)
+cd -- change to the directory
+find -- powerful tool to find everything (probably not needed here as we only need to search the directory we are in)
+
+## Potential drawbacks
+
+This is a directory so we cant just cat to a file indtead we need to cd (change directory) and enter the directory
+It is also a hidden file so we must use a special method
+
+
+We are going to first ls to look for the directories
+
+then cd to this directory
+
+now ls to find any files 
+Clearly we see we cannot see any files as they are hidden 
+
+So we should look for hidden files (they begin with a .)
+
+command we use is -- ls -d .*
+
+usage of -d is not really necessary here but in an alternate setting it would print the directory as well as the files. 
+but the directory would be printed without its contents
+
+once we see the file
+
+we can cat to it
+but we must use ./ as the file has special characters
+
+also be sure to use "" to tell the system it is all apart of one string
+
+
+##solution
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+
